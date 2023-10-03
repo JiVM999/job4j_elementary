@@ -51,4 +51,5 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoVertical(input, column);
         assertThat(result).isFalse();
     }
+
 }
